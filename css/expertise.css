@@ -1,0 +1,178 @@
+h2
+{
+
+text-align:center;
+ font-weight:bold;
+  font-size:40px; 
+  color:green;
+   margin-top:50px;
+}
+:root {
+  --primary-color: green;
+  --secondary-color: #f5f5d4;
+  --text-color: black;
+  --accent-color: green;
+  --font-family: "Times New Roman", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  font-size: 20px;
+}
+
+.page-title {
+  text-align: center;
+  margin: 20px 0 50px;
+  font-size: 40px;
+  font-weight: bold;
+  color: green;
+}
+.styling {
+  max-width: 900px;
+  margin: auto;
+  padding: 50px;
+  border: 10px solid green;
+  border-radius: 30px;
+  background-color: #f5f5d4;
+  text-align: center;
+}
+.styling label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align:left;
+  margin-left:80px;
+}
+
+.styling input, .styling select {
+  width: 80%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid green;
+  border-radius: 4px;
+  background-color: lightgreen;
+  color: white;
+   
+}
+
+.styling button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.styling button:hover {
+  background-color: green;
+}
+
+.success-message {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
+.container
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+ /* ------------------------------
+   SELECTED EXPERTISE TAG LIST
+--------------------------------*/
+#selected-list {
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: flex-start;
+    background-color: transparent;
+}
+
+#selected-list span {
+    background-color: white;
+    color: black;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#selected-list span:hover {
+    background-color: red;
+}
+
+
+/* ------------------------------
+   OTHER CUSTOM EXPERTISE FIELD
+--------------------------------*/
+#other-fields {
+    margin-top: 15px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#other-fields input {
+    width: 70%;
+    background-color:white;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+
+#other-fields label {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+#addCustomBtn {
+    background-color: green;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#addCustomBtn:hover {
+    background-color: darkgreen;
+}
+
+
+/* ------------------------------
+   EXPERTISE SELECT BOX
+--------------------------------*/
+#expertise {
+    width: 80%;
+    margin: auto;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #666;
+}

@@ -1,0 +1,80 @@
+/* Container */
+.admin-container{
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.admin-hero {
+    background-color: darkgreen;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.admin-hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(13, 201, 76, 0.3);
+    color:white
+}
+
+.admin-hero p {
+    font-size: 20px;
+    font-weight: 500;
+    color:white;
+}
+
+/* Dashboard Buttons */
+.admin-buttons{
+    display:flex;
+    justify-content:center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.button-card{
+    max-width: 300px;
+}
+
+.button-card a{
+    display: inline-block;
+    padding: 25px 40px;
+    font-size: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(73, 221, 15, 0.2);
+}
+
+.button-card a:hover{
+    background-color:darkgreen;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(10, 238, 41, 0.3);
+}
+
+.button-card p{
+    font-size: 16px;
+    color: black;
+    margin-top: 5px;
+}
+
+/* Motivational Quote */
+.admin-quote{
+    margin-top:40px;
+    text-align:center;
+}
+
+.admin-quote p{
+    font-size:18px;
+    color:black;
+    font-weight:bold;
+    font-style:italic;
+}

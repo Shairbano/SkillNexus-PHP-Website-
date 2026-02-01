@@ -1,0 +1,111 @@
+:root {
+  --primary-color: darkgreen;
+  --background: #f5f5d4;
+  --text-color: black;
+  --accent-color: green;
+  --font-family: "Times New Roman", serif;
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+/* PAGE TITLE */
+.page-title {
+  text-align: center;
+  margin: 30px 0 40px;
+  font-size: 40px;
+  font-weight: bold;
+  color: green;
+}
+
+/* FORM CONTAINER */
+.styling {
+  max-width: 900px;
+  margin: auto;
+  padding: 50px;
+  border: 8px solid green;
+  border-radius: 25px;
+  background-color: #f5f5d4;
+  text-align: center;
+}
+
+/* FIELDSET (SAFE RESET — NO BLACK STRIPS) */
+.styling fieldset {
+  border: none;
+  margin-bottom: 30px;
+  padding: 25px;
+  border-radius: 12px;
+  background-color:#f5f5d4;
+}
+
+/* LEGEND */
+.styling legend {
+  font-size: 26px;
+  font-weight: bold;
+  color: black;
+  padding: 6px 15px;
+  text-align: center;
+}
+
+/* LABELS */
+.styling label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: black;
+}
+
+/* INPUTS */
+.styling input,
+.styling select {
+  width: 80%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #99E265;
+  color: black;
+}
+
+/* FILE INPUT */
+.styling input[type="file"] {
+  background-color: white;
+}
+
+/* BUTTON */
+.styling button {
+  padding: 15px 35px;
+  font-size: 18px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.styling button:hover {
+  background-color: darkgreen;
+}
+
+/* MESSAGES */
+.success-message {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 28px;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 28px;
+}

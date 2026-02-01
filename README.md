@@ -14,7 +14,7 @@ The main purpose of SkillNexus is to:
 
 ---
 
-## 🔹 Main Features
+## Main Features
 
 The website consists of **two main user options**:
 

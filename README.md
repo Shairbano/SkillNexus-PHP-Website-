@@ -32,7 +32,7 @@ The website consists of **two main user options**:
 
 ---
 
-## 🔹 User Workflow
+## User Workflow
 
 1. User signs up on the SkillNexus website
 2. User logs in using their credentials
@@ -43,7 +43,7 @@ The website consists of **two main user options**:
 
 ---
 
-## 🔹 Admin Dashboard
+##  Admin Dashboard
 
 After logging in as an **admin**, the following management options are available:
 
